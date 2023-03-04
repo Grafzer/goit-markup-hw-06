@@ -438,21 +438,23 @@
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<button type="button" class="close-button" data-modal-close>X</button>
-				
+
 				<!-- ============ formularz rejestracyjny ============ -->
 
 				<form name="BUFU" autocomplete="on" novalidate>
 					<p>Zostaw swoje dane w formularzu poniżej</p>
-					<label for="user_name">Imię</label>
-					<label for="user_phone">Telefon</label>
-					<label for="user_mail">Email</label>
-					<label for="user_comment">Komentarz</label>
-					
+					<label>Imię</label>
+					<input type="text" name="name" id="user_name" />
 
+					<label>Telefon</label>
+					<input type="text" name="phone" id="user_phone" />
 
+					<label>Email</label>
+					<input type="text" name="phone" id="user_phone" />
 
+					<label>Komentarz</label>
+					<input type="text" name="comments" id="user_comments" placeholder="Wprowadź tekst" />
 				</form>
-
 			</div>
 		</div>
 		<script src="js\modal.js"></script>

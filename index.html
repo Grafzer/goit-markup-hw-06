@@ -445,19 +445,19 @@
 					<p>Zostaw swoje dane w formularzu poniżej</p>
 					<div class="form">
 						<label>Imię</label>
-						<input type="text" name="name" id="user_name" />
+						<input type="text" name="name" id="user_name" required checked/>
 
 						<label>Telefon</label>
-						<input type="tel" name="phone_number" id="user_phone" />
+						<input type="tel" name="phone_number" id="user_phone" required />
 
 						<label>Email</label>
-						<input type="email" name="mail" id="user_phone" />
+						<input type="email" name="mail" id="user_phone" required />
 
 						<label>Komentarz</label>
-						<input type="text" name="comments" id="user_comments" placeholder="Wprowadź tekst" />
+						<textarea name="feedback" rows="2" placeholder="Wprowadź tekst"></textarea>
 
 						<label>
-							<input type="checkbox" name="privacy_politics" id="privacy_politics_checkbox" />
+							<input type="checkbox" name="privacy_politics" id="privacy_politics_checkbox" required />
 							Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
 						</label>
 

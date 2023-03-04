@@ -441,19 +441,22 @@
 
 				<!-- ============ formularz rejestracyjny ============ -->
 
-				<form name="BUFU" autocomplete="on" novalidate>
+				<form name="BUFU" autocomplete="on">
 					<p>Zostaw swoje dane w formularzu poniżej</p>
 					<label>Imię</label>
 					<input type="text" name="name" id="user_name" />
 
 					<label>Telefon</label>
-					<input type="text" name="phone" id="user_phone" />
+					<input type="number" name="phone" id="user_phone" />
 
 					<label>Email</label>
-					<input type="text" name="phone" id="user_phone" />
+					<input type="email" name="mail" id="user_phone" />
 
 					<label>Komentarz</label>
 					<input type="text" name="comments" id="user_comments" placeholder="Wprowadź tekst" />
+				
+					<button type="submit">Wyślij</button>
+				
 				</form>
 			</div>
 		</div>

@@ -443,20 +443,26 @@
 
 				<form name="order_the_service" autocomplete="on">
 					<p>Zostaw swoje dane w formularzu poniżej</p>
-					<label>Imię</label>
-					<input type="text" name="name" id="user_name" />
+					<div class="form">
+						<label>Imię</label>
+						<input type="text" name="name" id="user_name" />
 
-					<label>Telefon</label>
-					<input type="number" name="phone" id="user_phone" />
+						<label>Telefon</label>
+						<input type="tel" name="phone_number" id="user_phone" />
 
-					<label>Email</label>
-					<input type="email" name="mail" id="user_phone" />
+						<label>Email</label>
+						<input type="email" name="mail" id="user_phone" />
 
-					<label>Komentarz</label>
-					<input type="text" name="comments" id="user_comments" placeholder="Wprowadź tekst" />
-				
-					<button type="submit">Wyślij</button>
-				
+						<label>Komentarz</label>
+						<input type="text" name="comments" id="user_comments" placeholder="Wprowadź tekst" />
+
+						<label>
+							<input type="checkbox" name="privacy_politics" id="privacy_politics_checkbox" />
+							Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+						</label>
+
+						<button type="submit">Wyślij</button>
+					</div>
 				</form>
 			</div>
 		</div>

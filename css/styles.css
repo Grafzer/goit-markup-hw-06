@@ -796,12 +796,73 @@ address {
 .form {
 	display: flex;
 	flex-direction: column;
+	margin: 12px 40px;
 }
 
 label {
 	margin-top: 10px;
+		font-family: "Roboto";
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+	color: var(--secondary-color);
 }
 
 textarea {
 	resize: none;
+}
+
+/* ================== modal classes ================== */
+
+.form_title {
+	margin: 40px 40px 12px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+	letter-spacing: 0.03em;
+	color: var(--main-color);
+	text-align: center;
+}
+
+.input-icon {
+margin-bottom: 10px;
+}
+
+
+.entry_field {
+	display: inline-block;
+	width: 448px;
+	height: 40px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	margin-top: 4px;
+	padding: 12px 16px;
+}
+
+.modal_icon {
+	 position: absolute;
+    left: 12px;
+    top: 50%;
+	    transform: translateY(-50%);
+}
+
+.comment_entry_field {
+	width: 448px;
+	height: 120px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	padding: 12px 16px;
+}
+
+.comment_entry_field:placeholder-shown {
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+	padding: 12px 16px;
+	color: rgba(117, 117, 117, 0.5);
+	
 }

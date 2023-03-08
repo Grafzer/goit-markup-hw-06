@@ -873,7 +873,16 @@ textarea {
 .privacy_politics-checkbox {
 	position: absolute;
 	cursor: pointer;
+	width: 16px;
+	height: 15px;
+	opacity: 0;
+	/* szary kwadrat */
+}
 
+.privacy_politics-checkbox-icon_uncheck {
+}
+
+.privacy_politics-checkbox-icon_checked {
 }
 
 /* ================== checkbox text ================== */
@@ -882,7 +891,7 @@ textarea {
 	display: inline;
 	position: relative;
 	font-size: 14px;
-	line-height: 1,71;
+	line-height: 1, 71;
 	letter-spacing: 0.03em;
 	color: var(--secondary-color);
 	margin: 10px 0px 30px 20px;
@@ -892,9 +901,6 @@ textarea {
 	text-decoration: underline;
 	color: var(--logo-color);
 }
-
-
-
 
 .form_privacy_politics-link {
 	margin-left: 8px;

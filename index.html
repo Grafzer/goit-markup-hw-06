@@ -437,7 +437,7 @@
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				<button type="button" class="close-button" data-modal-close>&#10006</button>
+				<button type="button" class="close-button" data-modal-close>X</button>
 
 				<!-- ============ formularz rejestracyjny ============ -->
 
@@ -445,7 +445,6 @@
 
 				<form name="order_the_service" autocomplete="on">
 					<div class="form">
-
 						<label class="form_name">Imię</label>
 						<div class="form_item">
 							<input class="form_entry_field" type="text" name="name" id="user_name" required checked />
@@ -473,15 +472,35 @@
 
 						<label class="form_name">Komentarz</label>
 						<div class="form_item">
-							<textarea class="form_entry_field-comment" name="feedback" rows="2" placeholder="Wprowadź tekst"></textarea>
+							<textarea
+								class="form_entry_field-comment"
+								name="feedback"
+								rows="2"
+								placeholder="Wprowadź tekst"
+							></textarea>
 						</div>
 
-						<label>
-							<input type="checkbox" name="privacy_politics" id="privacy_politics_checkbox" required />
-							Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+						<label class="form_privacy_politics">
+							Oświadczam iż akceptuję
+							<a class="form_privacy_politics-link" href="#">Regulamin</a>
+							i
+							<a class="form_privacy_politics-link" href="#">Politykę Prywatności.</a>
+
+							<input 
+							class="form_privacy_politics-checkbox" 
+							type="checkbox" 
+							name="privacy_politics" 
+							id="privacy_politics_checkbox" 
+							required />
+						
+							
+							<svg class="" width="18" height="18">
+								<use></use>
+							</svg>
+						
 						</label>
 
-						<button type="submit">Wyślij</button>
+						<button class="button-send" type="submit">Wyślij</button>
 					</div>
 				</form>
 			</div>

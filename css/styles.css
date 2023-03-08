@@ -868,27 +868,39 @@ textarea {
 	color: rgba(117, 117, 117, 0.5);
 }
 
+/* ================== checkbox field ================== */
+
+.privacy_politics-checkbox {
+	position: absolute;
+	cursor: pointer;
+
+}
+
+/* ================== checkbox text ================== */
+
 .form_privacy_politics {
-  display: block;
-  position: relative;
-font-size: 14px;
-line-height: 1,71;
-letter-spacing: 0.03em;
-color: var(--secondary-color);
-  margin: 10px 0 30px 20px;
+	display: inline;
+	position: relative;
+	font-size: 14px;
+	line-height: 1,71;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
+	margin: 10px 0px 30px 20px;
 }
 
 .form_privacy_politics-link {
-text-decoration: underline;
-color: var(--logo-color);
+	text-decoration: underline;
+	color: var(--logo-color);
 }
 
-.form_privacy_politics-checkbox {
- position: absolute;
-  cursor: pointer;
 
+
+
+.form_privacy_politics-link {
+	margin-left: 8px;
+	color: var(--logo-color);
+	text-decoration: underline;
 }
-
 
 .button-send {
 	font-weight: 700;

@@ -662,8 +662,6 @@ a:visited {
 	transition: var(--tranistion);
 }
 
-/* sekcja footer jest podzielona na dwie pod-sekcje divowe by łatwiej było je rozmieścić */
-
 .footer-section {
 	display: flex;
 	align-self: baseline;
@@ -746,6 +744,47 @@ address {
 
 .contacts-lists:not(:last-child) {
 	margin-bottom: 9px;
+}
+
+.container-sign-up {
+	display: inline-block;
+	margin: 10px;
+	margin-left: 78px;
+}
+
+.sign-up-tittle {
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.62;
+	letter-spacing: 0.03em;
+	color: var(--secondary-background-color);
+}
+
+.sign-up_field {
+	width: 358px;
+	height: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	margin-top: 4px;
+	padding-left: 16px;
+	gap: 10px;
+	transition: var(--tranistion);
+	background-color: var(--footer-color);
+}
+
+.sign-up_field:placeholder-shown {
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 0.03em;
+	padding: 16px;
+	color: rgba(117, 117, 117, 0.5);
 }
 
 /* ================== modal ================== */
@@ -885,7 +924,6 @@ textarea {
 	color: var(--secondary-color);
 	position: relative;
 }
-
 
 /* ================== checkbox field ================== */
 

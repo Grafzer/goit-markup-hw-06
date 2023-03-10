@@ -664,22 +664,23 @@ a:visited {
 
 .footer-section {
 	display: flex;
+	justify-content: space-between;
 	align-self: baseline;
 }
 
-.footer-address {
+/* .footer-address {
 	margin-right: 70px;
-}
+} */
 
 address {
 	font-style: normal;
 	margin-top: 20px;
 }
 
-.container-social-link {
+/* .container-social-link {
 	display: inline-block;
 	margin: 10px;
-}
+} */
 
 .footer-title-join-us {
 	margin-top: 0px;
@@ -746,12 +747,6 @@ address {
 	margin-bottom: 9px;
 }
 
-.container-sign-up {
-	display: inline-block;
-	margin: 10px;
-	margin-left: 78px;
-}
-
 .sign-up-tittle {
 	text-transform: uppercase;
 	margin-top: 0px;
@@ -765,6 +760,7 @@ address {
 }
 
 .sign-up_field {
+	margin-right: 12px;
 	width: 358px;
 	height: 50px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
@@ -785,6 +781,43 @@ address {
 	letter-spacing: 0.03em;
 	padding: 16px;
 	color: rgba(117, 117, 117, 0.5);
+}
+
+.button-sign-up {
+	display: inline-flex;
+	text-align: center;
+	align-items: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	background-color: var(--logo-color);
+	color: var(--secondary-background-color);
+	cursor: pointer;
+	letter-spacing: 0.06em;
+	border: none;
+	width: 200px;
+	height: 50px;
+	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button-sign-up:hover {
+	background-color: var(--logo-color);
+	color: var(--secondary-text-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	transition: var(--tranistion);
+}
+
+.sign-up-text {
+	padding-left: 42px;
+	padding-right: 15px;
+}
+
+.sign-up-icon {
+	margin-right: 28px;
 }
 
 /* ================== modal ================== */

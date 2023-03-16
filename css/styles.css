@@ -572,7 +572,6 @@ ul {
 	height: 92px;
 	border: 1px solid var(--icon-color);
 	border-radius: 4px;
-	margin-right: 10px;
 }
 
 .firm-item {
@@ -854,13 +853,16 @@ address {
 }
 
 .close-button {
-	position: absolute;
+	margin-left: auto;
+	margin-top: 8px;
+	margin-right: 8px;
 	display: block;
 	width: 30px;
 	height: 30px;
 	right: 8px;
 	top: 8px;
 	border: 1px solid var(--button-background-color);
+	background-color: var(--secondary-background-color);
 	border-radius: 50%;
 	cursor: pointer;
 }
@@ -888,7 +890,8 @@ textarea {
 /* ================== modal classes ================== */
 
 .form_title {
-	margin-top: 40px;
+	display: block;
+	margin-top: auto;
 	font-family: "Roboto";
 	font-weight: 700;
 	font-size: 20px;
@@ -1027,11 +1030,13 @@ textarea {
 .form_item:hover > .form_entry_field_icon {
 	border-color: var(--logo-color);
 	fill: var(--logo-color);
+	transition: var(--tranistion);
 }
 
 .form_item:focus-within > .form_entry_field_icon {
 	border-color: var(--logo-color);
 	fill: var(--logo-color);
+	transition: var(--tranistion);
 }
 
 .form_entry_field-comment:hover,

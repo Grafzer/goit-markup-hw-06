@@ -584,6 +584,7 @@ ul {
 	fill: var(--logo-color);
 	transition: var(--tranistion);
 	border-color: var(--logo-color);
+	outline: 5px var(--logo-color)
 }
 
 a:link {
@@ -1026,6 +1027,8 @@ textarea {
 .form_entry_field:hover,
 .form_entry_field:focus {
 	border-color: var(--logo-color);
+	outline: 5px var(--logo-color)
+	
 }
 
 .form_item:hover > .form_entry_field_icon {
@@ -1038,11 +1041,13 @@ textarea {
 	border-color: var(--logo-color);
 	fill: var(--logo-color);
 	transition: var(--tranistion);
+	outline: 5px var(--logo-color)
 }
 
 .form_entry_field-comment:hover,
 .form_entry_field-comment:focus {
 	border-color: var(--logo-color);
+	outline: 5px var(--logo-color)
 }
 
 .policy-terms-link:visited,
@@ -1051,6 +1056,7 @@ textarea {
 	color: var(--logo-color);
 	letter-spacing: 0.03em;
 	text-decoration: underline;
+
 }
 
 .policy-terms {

@@ -95,7 +95,7 @@ nav {
 .navigation-link:focus {
 	color: var(--logo-color);
 	transition: var(--tranistion);
-	outline: var(--logo-color);
+	outline: 5px auto var(--logo-color);
 }
 
 .navigation {
@@ -183,13 +183,13 @@ nav {
 .contact-phone-header:focus .phone-icon {
 	fill: var(--logo-color);
 	transition: var(--tranistion);
-	outline: var(--logo-color);
+	outline: 5px auto var(--logo-color);
 }
 
 .contact-mail-header:focus .mail-icon {
 	fill: var(--logo-color);
 	transition: var(--tranistion);
-	outline: var(--logo-color);
+	outline: 5px auto var(--logo-color);
 }
 
 hr {
@@ -284,7 +284,7 @@ ul {
 	background-color: var(--logo-color);
 	transition: var(--tranistion);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	outline: var(--logo-color);
+	outline: 5px auto var(--logo-color);
 }
 
 /* ================== portfolio tiles ================== */
@@ -304,6 +304,7 @@ ul {
 .tile:focus {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 	transition: var(--tranistion);
+	outline: 5px auto var(--logo-color);
 }
 
 .tile-text {
@@ -531,6 +532,7 @@ ul {
 	border-radius: 50%;
 	margin-right: 10px;
 	transition: var(--tranistion);
+	outline: 5px auto var(--logo-color);
 }
 
 .social-links:hover .social-icon {
@@ -546,6 +548,7 @@ ul {
 	border-radius: 50%;
 	margin-right: 10px;
 	transition: var(--tranistion);
+	outline: 5px auto var(--logo-color);
 }
 
 /* ================== Nasi klienci ================== */
@@ -588,6 +591,7 @@ ul {
 	fill: var(--logo-color);
 	transition: var(--tranistion);
 	border-color: var(--logo-color);
+	outline: 5px auto var(--logo-color);
 }
 
 a:link {

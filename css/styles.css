@@ -586,7 +586,6 @@ ul {
 	border-color: var(--logo-color);
 }
 
-
 a:link {
 	text-decoration: none;
 }
@@ -785,7 +784,7 @@ address {
 
 .button-sign-up {
 	display: inline-flex;
-	
+
 	background-color: var(--logo-color);
 	color: var(--secondary-background-color);
 	cursor: pointer;
@@ -795,7 +794,6 @@ address {
 	height: 50px;
 	border-radius: 4px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
 }
 
 .button-sign-up:hover {

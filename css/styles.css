@@ -1058,10 +1058,10 @@ textarea {
 	text-decoration: underline;
 }
 
-input:focus-visible {
+/* input:focus-visible {
 	outline: 5px solid var(--logo-color);
 	border-radius: 5px;
-}
+} */
 
 .policy-terms {
 	font-weight: 400;

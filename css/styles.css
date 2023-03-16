@@ -95,6 +95,7 @@ nav {
 .navigation-link:focus {
 	color: var(--logo-color);
 	transition: var(--tranistion);
+	outline: var(--logo-color);
 }
 
 .navigation {
@@ -182,6 +183,7 @@ nav {
 .contact-phone-header:focus .phone-icon {
 	fill: var(--logo-color);
 	transition: var(--tranistion);
+	outline: var(--logo-color);
 }
 
 .contact-mail-header:focus .mail-icon {
